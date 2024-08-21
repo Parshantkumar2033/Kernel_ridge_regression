@@ -156,7 +156,10 @@ if __name__ == "__main__":
     dataset_path = config.TRAINING_DATASET
     x_train, x_test, y_train, y_test = data_preprocessing(dataset_path)
 
-    pickle_file(x_train, x_test, y_train, y_test)       # saving the parameters
+    '''
+    To generate the new parameters un-comment the below line.
+    '''
+    # pickle_file(x_train, x_test, y_train, y_test)       # saving the parameters
 
     sigma, p, d = load_parameters()
     print(sigma)
