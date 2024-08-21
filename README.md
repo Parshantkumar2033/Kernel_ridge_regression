@@ -31,7 +31,7 @@ This project implements the dual version of **Ridge Regression**, enabling non-l
 ## **Usage**
 To run the kernel ridge regression with the different kernels, use the following code:
 
-![kernels](Kernel_ridge_regression/demo_pics/kernels.png)
+![kernels] (Kernel_ridge_regression/demo_pics/kernels.png)
 
 - Update **src/config.py** accordingly.
 
@@ -42,13 +42,13 @@ python src/main.py
 
 - **Gaussian Kernel**: A radial basis function kernel with parameter **`sigma`**.
         
-    ![Gaussian](Kernel_ridge_regression/demo_pics/gaussian.png)
+    ![Gaussian](demo_pics/gaussian.png)
 - **Splines Kernel**: A kernel based on spline functions, useful for non-linear regression tasks, parameter **`d`** defining the non-linearity order.
 
-    ![splines](Kernel_ridge_regression/demo_pics/splines.png)
+    ![splines](demo_pics/splines.png)
 - **ANOVA Kernel**: A kernel that captures interactions between features, useful for models where feature interaction is important.
 
-    ![anova](Kernel_ridge_regression/demo_pics/anova.png)
+    ![anova](demo_pics/anova.png)
 
 
 ## **Project-Structure**
