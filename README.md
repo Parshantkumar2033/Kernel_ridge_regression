@@ -31,7 +31,7 @@ This project implements the dual version of **Ridge Regression**, enabling non-l
 ## **Usage**
 To run the kernel ridge regression with the different kernels, use the following code:
 
-![kernels] (demo_pics/kernels.png)
+![kernels](demo_pics/kernels.png)
 
 - Update **src/config.py** accordingly.
 
