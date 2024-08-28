@@ -22,7 +22,7 @@ This project implements the dual version of **Ridge Regression**, enabling non-l
     git clone https://github.com/Parshantkumar2033/Kernel_ridge_regression.git
 
 ### 2. Navigate to the project directory:
-    cd kernel_ridge_regression
+    cd Kernel_ridge_regression
 
 ### 3. Install the required dependencies:
     pip install -r requirements.txt
